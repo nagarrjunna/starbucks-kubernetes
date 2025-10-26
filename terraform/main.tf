@@ -3,7 +3,7 @@
   backend "s3" {
     bucket = "my-terraform-state-buckett2"
     key    = "statefile.tfstate"
-    region = "us-east-1"
+    region = "ap-south-1"
   }
 }
 
